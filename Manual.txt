@@ -1,0 +1,15 @@
+1. Ultra2_Mod.bin перетянуть на hfs.exe
+2. Выбрать в HFS тот айпи, который присвоился, если сам не выдался. (Menu - IP address)
+3. 
+3. Putty -> Telnet -> wget http://192.168.1.xxx/Ultra2_Mod.bin
+4. flash erase 0x40000 0x7f40000
+5. flash write 0x40000 0x80001000 0x4FC0000
+6. flash erase 0x1d40000 0x80000
+7. flash erase 0x5d00000 0x80000
+
+
+Breed:
+1. 2 Раздел(Upgrade) -> Bootloader -> Breed-R3P_3G_universal.bin -> Automatic restart -> Upload
+2. Роутер перезапустится в Breed
+3. Environment -> "autoboot.command | boot flash 0x4140000" -> Save. Фото как должно быть есть в архиве - breed Environment.jpg
+4. Reboot
