@@ -9,7 +9,7 @@ If you have a different firmware , for example Padavan, skip this step
 2. Unplug the router, press the reset button then power up while pressing the reset after that connect your pc using lan cable and Go to Breed at 192.168.1.1. and make backups of your full and eeprom
  
 
-3. In the archive, drag the Ultra2_Mod.bin file onto hfs.exe. Attention , someone else’s eeprom with poppies and calibrations is already built into Ultra2_Mod.bin, you can use it this way, or take it apart and change it yourself, if you wish.
+3. In the archive, drag the [Ultra2_Mod.bin](https://github.com/xiv3r/Xiaomi-Mi-Router-4-Keenetic-OS-3.8.4/releases/download/Mod/Ultra2_Mod.bin) file onto hfs.exe. Attention , someone else’s eeprom with poppies and calibrations is already built into Ultra2_Mod.bin, you can use it this way, or take it apart and change it yourself, if you wish.
 look
 
 4. Click Already in clipboard. Your computer's IP address will be copied to the clipboard. It should start with 192.168.1
